@@ -1,7 +1,7 @@
 /*공통*/
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
-* {padding:0; margin:0}
+
+* {padding:0; margin:0; font-family: 'Noto Sans KR', sans-serif;}
 
 .space {
     clear: both
