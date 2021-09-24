@@ -1,7 +1,7 @@
 /*공통*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
-
-* {padding:0; margin:0; font-family: 'Noto Sans KR', sans-serif;font-family: 'Open Sans'}
+* {padding:0; margin:0; font-family: 'Noto Sans KR', 'sans-serif', 'Open Sans'}
 
 .space {
     clear: both
@@ -38,19 +38,19 @@ body {
 h1,h2,h3,h4,h5 {font-weight: normal}
 
 /*헤더*/
-#header {background: #000; width:100%; height: 66px; color:#fff; position: relative;}
-.left-menu {line-height: 66px;width:350px;}
-.hambuger {;float: left; padding-top: 25px;padding-right: 25px;width:16px;display: inline-block}
+#header {background: #000; width:100%; height: 80px; color:#fff; position: relative;}
+.left-menu {line-height: 80px;width:350px; position:absolute; left:5%;}
+.hambuger {;float: left; padding-top: 30px;padding-right: 25px;width:16px;display: inline-block}
 .left-menu li {float:left; padding-right: 30px;color:#fff}
-.logo {position: absolute; left: 43%; top:20%}
-.right-menu {;float:right;position: absolute; top:35%; right:0}
+.logo img { position: absolute; left:43%; top:40%  }
+.right-menu {float:right;position: absolute; top:60%; right:0}
 .right-menu li {float: left;padding-right: 20px }
 .search {vertical-align: middle}
 
 
 /*메인*/
-#main {position:relative;}
-#main .main-text {color:#fff;position:absolute;top:6%; left: 40%; text-align: center}
+#main {position:relative; }
+#main .main-text {color:#fff;position:absolute;top:6%; left: 42%; text-align: center}
 #main .main-text h4 {font-size: 30px;padding-bottom: 20px;}
 #main .main-text h1 {font-size: 45px;line-height: 1}
 
@@ -355,7 +355,7 @@ h1,h2,h3,h4,h5 {font-weight: normal}
     #header {font-size: 10px;height: 40px;}
     .left-menu {display: none}
     .right-menu {position: absolute; float:right; right: 0}
-    .logo {left: 10%; padding-top: 5px;}
+    .logo {left: 10%; padding-top: 10px;}
     .logo img{ width:50%; }
     .hambuger {float:left; padding-top: 12px;cursor:pointer;}
 .left-menu{ padding:20px; box-sizing:border-box; }
