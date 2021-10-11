@@ -45,7 +45,6 @@ h1,h2,h3,h4,h5 {font-weight: normal}
 .right-menu li {float: left;padding-right: 20px }
 .search {vertical-align: middle}
 
-.hambuger{ float:right; margin-right:10px; margin-top:10px; cursor:pointer;}
 
 
 
@@ -341,7 +340,6 @@ h1,h2,h3,h4,h5 {font-weight: normal}
 
 
 
-
 /*반응형*/
 
 /*769-1280 일때*/
@@ -349,26 +347,25 @@ h1,h2,h3,h4,h5 {font-weight: normal}
 #main .main-text {color:#fff;position:absolute;top:10%; left: 40%; text-align: center}
     #main .main-text h4 {font-size: 15px;padding-bottom: 20px;}
 #main .main-text h1 {font-size: 20px;line-height: 1}
+}
 
 
 
 /*768보다 작은 화면 일 때*/
 @media (max-width:768px) {
-    #header {font-size: 10px;height: 40px; position: relative}
+#header {font-size: 10px;height: 40px; position: relative}
 .hambuger {cursor:pointer; position: absolute;display: inline-block;
-     padding-left: 25px;padding-top: 10px;}
+     padding-left: 30px;padding-top: 10px;}
 .right-menu {padding-top: 10px;}
-.logo {padding-top: 0;}
+.logo {padding-top: 10px}
 .logo img { width: 20%;}
-.left-menu {font-size:12px;;z-index:1;  padding-top: 20px; ;}
+.left-menu {font-size:12px;;z-index:1;  padding-top: 20px; }
 .left-menu li {width: 100%;height: 30px;}
-
-
 
 #main .main-text {color:#fff;position:absolute;top:4%; left: 40%; text-align: center}
 #main .main-text h4 {font-size: 10px;padding-bottom: 5px;}
 #main .main-text h1 {font-size: 20px;line-height: 1}
-}
+
 
 /*컨텐츠1*/
 #content-1 {
@@ -560,8 +557,8 @@ h1,h2,h3,h4,h5 {font-weight: normal}
 .footer_logo {width:80px; height: 18px;
 
 }
-    .footer_logo img {width:100%}
+.footer_logo img {width:100%}
 .copyright {padding-top: 20px; text-align: center; font-size: 8px;}
-
+}
 
 

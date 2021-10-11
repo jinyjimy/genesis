@@ -56,8 +56,7 @@ $(function() {
             <li><a href="#">체험</a></li>
             <li><a href="#">멤버스</a></li>
             <li><a href="#">제네시스</a></li>
-
-        </ul>
+        </ul></div>
 
 
         <div class="logo"><img src="images/logo.jpg" alt="로고이미지"></div>
@@ -152,7 +151,7 @@ $(function() {
                         </div>
     
                     </div>
-                    <div class="content">
+                    <div class="content clearfix">
                         <div class="content_text clearfix">
                             <h3>GENESIS</h3>
                             <h1>GV80</h1>
@@ -166,7 +165,6 @@ $(function() {
                     </div>
                 </div>
             </div>
-    </div>
 
     <ul class="slide_gallery">
         <li><img src="images/img1.jpg" alt="사진1"></li>
@@ -188,7 +186,7 @@ $(function() {
                 </div>
             </div>
     </div>
-    <div id="content-4 clearfix">
+    <div id="content-4">
             <div class="inner">
                 <h3>연관 컨텐츠</h3>
                 <div class="content4_box">
@@ -225,10 +223,10 @@ $(function() {
                 </div>
             </div>
     </div>
-    <div id="footer">
+    <footer id="footer">
             <div class="inner">
                 <div class="footer_text">
-                    <ul>
+                    <ul class="clearfix">
                         <a href="#">사이트맵</a>
                         <a href="#">이용약관</a>
                         <a href="#">개인정보처리방침</a>
@@ -243,7 +241,7 @@ $(function() {
                 <div class="copyright"><p>ⓒ Copyright 2021 Hyundai Motor Company.<br />
                     All Rights Reserved.</p></div>
             </div>
-        </div>
+        </footer>
 
         <script>
 
@@ -260,8 +258,9 @@ $(function() {
 
             $(function(){
                 var win_w = $(window).width();
-                if(win_w >= 765){
-                        $(".left-menu").show();
+                if(win_w <= 765){
+                        $(".hambuger").show();
+                        $(".left-menu").hide();
                 }
             });
             </script>
