@@ -39,9 +39,10 @@ h1,h2,h3,h4,h5 {font-weight: normal}
 #header {background: #000; width:100%; height: 80px; color:#fff; position: relative;}
 .left-menu {line-height: 80px;width:350px; position:absolute; left:5%;}
 .left-menu li {float:left; padding-right: 30px;color:#fff}
+.hambuger {box-sizing: border-box;}
 .logo {padding-top: 20px;}
 .logo img { position: absolute; left:43%;}
-.right-menu {float:right;padding-top: 10px;}
+.right-menu {float:right;}
 .right-menu li {float: left;padding-right: 20px }
 .search {vertical-align: middle}
 
@@ -347,6 +348,7 @@ h1,h2,h3,h4,h5 {font-weight: normal}
 #main .main-text {color:#fff;position:absolute;top:10%; left: 40%; text-align: center}
     #main .main-text h4 {font-size: 15px;padding-bottom: 20px;}
 #main .main-text h1 {font-size: 20px;line-height: 1}
+
 }
 
 
@@ -356,7 +358,6 @@ h1,h2,h3,h4,h5 {font-weight: normal}
 #header {font-size: 10px;height: 40px; position: relative}
 .hambuger {cursor:pointer; position: absolute;display: inline-block;
      padding-left: 30px;padding-top: 10px;}
-.right-menu {padding-top: 10px;}
 .logo {padding-top: 10px}
 .logo img { width: 20%;}
 .left-menu {font-size:12px;;z-index:1;  padding-top: 20px; }
