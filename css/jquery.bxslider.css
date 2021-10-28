@@ -17,21 +17,22 @@
 .bx-wrapper {
 	position: relative;
 	margin: 0 auto;
-	padding: 0;
-	*zoom: 1;
+	padding: 20px;
+
+
 }
 
 .bx-wrapper img {
-	width: 100%;
+	width: 50%;
 	display: block;
+	margin:0 auto;
 }
 
 /** THEME
 ===================================*/
 
 .bx-wrapper .bx-viewport {
-	-moz-box-shadow: 0 0 5px #ccc;
-	-webkit-box-shadow: 0 0 5px #ccc;
+
 	left: -5px;
 	background: #fff;
 }

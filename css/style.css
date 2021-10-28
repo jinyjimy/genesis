@@ -3,7 +3,9 @@
 
 * {padding:0; margin:0; font-family: 'Noto Sans KR', 'sans-serif', 'Open Sans'}
 
-.clearfix::before, .clearfix::after {display: block; content:''; clear:both}
+.space {
+    clear: both
+}
 
 .inner {
     width: 100%;
@@ -43,16 +45,14 @@ h1,h2,h3,h4,h5 {font-weight: normal}
 .logo {padding-top: 20px;}
 .logo img { position: absolute; left:43%;}
 .right-menu {float:right;}
-.right-menu li {float: left;padding-right: 20px }
+.right-menu li {float: left;padding-right: 20px;padding-top: 10px;}
 .search {vertical-align: middle}
-
-
 
 
 
 /*메인*/
 #main {position:relative; }
-#main .main-text {color:#fff;position:absolute;top:6%; left: 42%; text-align: center}
+#main .main-text {color:#fff;position:absolute;top:6%; left: 40%; text-align: center}
 #main .main-text h4 {font-size: 30px;padding-bottom: 20px;}
 #main .main-text h1 {font-size: 45px;line-height: 1}
 
@@ -88,12 +88,12 @@ h1,h2,h3,h4,h5 {font-weight: normal}
 .slide_gallery {display: none}
 #content-2 {
     width: 100%;
-    height: 4400px;
+    height: 4756px;
     background-color: #000;
 }
 
 .content {
-    padding-top: 200px;
+    padding-top: 266px;
 }
 
 .content_text {
@@ -341,6 +341,7 @@ h1,h2,h3,h4,h5 {font-weight: normal}
 
 
 
+
 /*반응형*/
 
 /*769-1280 일때*/
@@ -349,24 +350,23 @@ h1,h2,h3,h4,h5 {font-weight: normal}
     #main .main-text h4 {font-size: 15px;padding-bottom: 20px;}
 #main .main-text h1 {font-size: 20px;line-height: 1}
 
-}
-
 
 
 /*768보다 작은 화면 일 때*/
 @media (max-width:768px) {
-#header {font-size: 10px;height: 40px; position: relative}
-.hambuger {cursor:pointer; position: absolute;display: inline-block;
-     padding-left: 30px;padding-top: 10px;}
-.logo {padding-top: 10px}
-.logo img { width: 20%;}
-.left-menu {font-size:12px;;z-index:1;  padding-top: 20px; }
-.left-menu li {width: 100%;height: 30px;}
+    #header {font-size: 10px;height: 40px; position: relative; }
+    .hambuger {cursor:pointer; position: absolute;display: inline-block;
+         padding-left: 30px;padding-top: 10px;}
+    .logo {padding-top: 10px; }
+    .logo img { width: 15%;}
+    .left-menu {font-size:12px;;z-index:1;  padding-top: 20px; }
+    .left-menu li {width: 100%;height: 30px;}
+    .right-menu li {padding-top: 0;}
 
-#main .main-text {color:#fff;position:absolute;top:4%; left: 40%; text-align: center}
+    #main .main-text {color:#fff;position:absolute;top:4%; left: 40%; text-align: center}
 #main .main-text h4 {font-size: 10px;padding-bottom: 5px;}
 #main .main-text h1 {font-size: 20px;line-height: 1}
-
+}
 
 /*컨텐츠1*/
 #content-1 {
@@ -558,8 +558,8 @@ h1,h2,h3,h4,h5 {font-weight: normal}
 .footer_logo {width:80px; height: 18px;
 
 }
-.footer_logo img {width:100%}
+    .footer_logo img {width:100%}
 .copyright {padding-top: 20px; text-align: center; font-size: 8px;}
-}
+
 
 
